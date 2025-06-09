@@ -111,6 +111,65 @@ nav {
       margin-bottom: 20px; /* Add space below image when stacked */
     }
   }
+  .research {
+  text-align: center;
+  background: #fff;
+  margin: 40px auto 30px auto;
+  padding: 40px 30px;
+  border-radius: 18px;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.07);
+  max-width: 800px;
+  transition: box-shadow 0.3s;
+}
+
+.research h3 {
+  font-size: 2rem;
+  color: #003b3b;
+  margin-bottom: 18px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.research p {
+  font-size: 1.15rem;
+  color: #444;
+  line-height: 1.7;
+  margin: 0 auto;
+  max-width: 650px;
+  word-break: break-word;
+}
+
+/* Responsive styles for .research */
+@media (max-width: 768px) {
+  .research {
+    padding: 25px 10px;
+    margin: 25px 0 20px 0;
+    border-radius: 14px;
+  }
+  .research h3 {
+    font-size: 1.4rem;
+    margin-bottom: 12px;
+  }
+  .research p {
+    font-size: 1rem;
+    max-width: 98%;
+  }
+}
+
+@media (max-width: 480px) {
+  .research {
+    padding: 15px 4vw;
+    margin: 18px 0 12px 0;
+    border-radius: 10px;
+  }
+  .research h3 {
+    font-size: 1.1rem;
+  }
+  .research p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+}
   .research{
     text-align: center;
   }
